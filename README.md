@@ -1,8 +1,9 @@
-# Predicting House Prices Using Regression Analysis
+# Predicting House Prices Using Regression Analysis Group Project
 
 ![Homepage Profile](https://github.com/zawadi-wanjiru/House-Prices-Prediction-Group-Project/blob/main/Background%20Image.jpg)
 
 ## Project Overview
+Find the dataset [here](https://github.com/zawadi-wanjiru/House-Prices-Prediction-Group-Project/blob/main/house_prices_dataset.csv)
 
 This project is aimed at predicting house prices based on various features such as size, location, and number of rooms using regression analysis. We employed Python and libraries like pandas, scikit-learn, matplotlib, and seaborn for data analysis and visualization. The project emphasizes the application of data science concepts, including data cleaning, feature engineering, and model evaluation.
 
@@ -66,11 +67,16 @@ data['feature'].fillna(data['feature'].mean(), inplace=True)
 
 **Visuals**
 * Distribution of House Prices: Place a histogram showing the price distribution of houses here.
+![](https://github.com/zawadi-wanjiru/House-Prices-Prediction-Group-Project/blob/main/Hl.png)
+
 * Correlation Heatmap: Add a heatmap visualization of feature correlations.
+![](https://github.com/zawadi-wanjiru/House-Prices-Prediction-Group-Project/blob/main/Hc.png)
 
 **2. Feature Engineering**
 
 * Created additional features like price_per_sqft.
+  ![](https://github.com/zawadi-wanjiru/House-Prices-Prediction-Group-Project/blob/main/Hp.png)
+
 * Selected features using correlation analysis and variance inflation factor (VIF).
 
 # Creating a new feature  
